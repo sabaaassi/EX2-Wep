@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Book</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="icon" type="ImageIcon" href="images/MyBookLogo.png" >
+</head>
+<body>
+    <header>
+        <a href="index.html" href="#" class="logo"></a>
+        <a href="index.html" href="#" class="logoBook">My Book</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href = "#Our Book" class="active">Our Book</a>
+            <a href="#">About</a>
+            <a href="#">Content</a>
+        </nav>
+     </header>
+        <main>
+            <section class="SectionPhotos">
+                <img src="images/Book-2.png" alt="Novels">
+                <img src="images/3-2.png"alt ="Novels">
+                <img src="images/Dan-2.png" alt="Novels">
+            </section>
+            <section class="List-Book-Section">
+                <h2>List of Book</h2>
+                <ul>
+                    <li>
+                        <img class="Group" src="images/Group.png" alt="icon-group">
+                        <img class="Ellipse-Page" src="images/Ellipse-cart-1.png" alt="purple-ellipse">
+                        <p>To Kill a Mockingbird-Harper Lee</p>
+                    </li>
+                    <li>
+                        <img class="Group" src="images/Group.png" alt="icon-group">
+                        <img class="Ellipse-Page" src="images/Ellipse-cart-1.png" alt="purple-ellipse">
+                        <p>Pride and Prejudice-Jane Austen</p>
+                    </li>
+                    <li>
+                        <img class="Group" src="images/Group.png" alt="icon-group">
+                        <img class="Ellipse-Page" src="images/Ellipse-cart-1.png" alt="purple-ellipse">
+                        <p>The Alchemist-Paulo Coelho</p>
+                    </li>
+                    <li>
+                        <img class="Group" src="images/Group.png" alt="icon-group">
+                        <img class="Ellipse-Page" src="images/Ellipse-cart-1.png" alt="purple-ellipse">
+                        <p>The Great Gatsby-F. Scott Fitzgerald</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="Content-Section">
+                <h2>Contact Us</h2>
+                <section class="From-Section">
+                    <form id="From">
+                        <div Class="ContainerFrom">
+                           <label for="name">name:</label>
+                           <input type="text" id="name" name="name" required>  
+                        </div>
+                        <div class="ContainerFrom">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                        </div>
+                        <div class="ContainerFrom">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <button type="submit" id="submit-button">Contact Us</button>
+                    </form>
+                </section>
+            </section>
+        </main>
+     <footer>
+        <section id="FooterLinksSection">
+            <h2>WHO WE ARE</h2>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Work With Us</a></li>
+            </ul>
+        </section>
+        <section id="FooterSocialLinksSection">
+            <h2>FOLLOW US</h2>
+            <ul>
+                <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+        <section id="FooterSocialIconsSection">
+            <a href="https://twitter.com/" target="_blank"><img src="images/Twitter.png" alt="twitter"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="instagram"></a>
+            <p>© 2024 My Book</p>
+        </section>
+    </footer>
+</body>
+</html>
