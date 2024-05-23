@@ -49,7 +49,7 @@ a{
 header {
     background-color: rgb(255, 255, 255);
     height: 128px;
-    padding-top: 1px;
+    padding-top: 0px;
     display: flex;
     align-items: center;
     padding: 0 32px;
@@ -328,7 +328,7 @@ nav a.active {
 }
 
 .EllipseShape{
-    background-image: url("../images/Ellipse\ heart\ 1.png");
+    background-image: url("../images/Ellipse-cart-1.png");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -340,7 +340,7 @@ nav a.active {
 }
 
 .CartButton{
-    background-image: url("../images/trash-2-32.ico");
+    background-image: url("../images/shopping-basket1.png");
     position:absolute;
     width: 31px;
     height: 31px;
@@ -526,20 +526,18 @@ nav a.active {
     }
 }
 
-
 /* FOOTER */
+
 footer {
     background-color: #deccfc;
     height:287px;
     display: flex;
     clear: both;
     position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 1000; 
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 } 
-
-
 
 #FooterLinksSection, #FooterSocialLinksSection {
     color: #5f007b;
@@ -619,9 +617,13 @@ footer {
     color: #333;
     font-family: Gruppo;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 #FooterLinksSection a:hover, #FooterSocialLinksSection a:hover {
     color: #727070;
+}
+
+#FooterSocialIconsSection a img{
+    padding-right: 24px;
 }
